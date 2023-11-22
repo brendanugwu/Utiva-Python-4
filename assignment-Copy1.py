@@ -1,10 +1,8 @@
-#!/usr/bin/env python
-# coding: utf-8
+
 
 # ###Asignment
 
-# In[1]:
-
+Ques 1
 
 def is_even (integer):
     
@@ -16,16 +14,7 @@ def is_even (integer):
     else:
         return False
     
-
-
-# In[3]:
-
-
-is_even(3)
-
-
-# In[18]:
-
+Ques 2
 
 def calculate_grade (studentscore):
     
@@ -50,24 +39,7 @@ def calculate_grade (studentscore):
         return 'F'
     
         
-        
-    
-
-
-# In[6]:
-
-
-calculate_grade(79)
-
-
-# In[ ]:
-
-
-
-
-
-# In[9]:
-
+    Ques 3
 
 def calculate_area (lenght, width):
     
@@ -75,19 +47,10 @@ def calculate_area (lenght, width):
     
     return Area
 
-    
 
-
-# In[11]:
-
-
-calculate_area(10, 4)
-
+Ques 4
 
 # ### if a triangle has the side lengths a, b, and c, then theorem says the inequality,: a+b > c, a+c > b, and b+c > a must be satisfied
-
-# In[13]:
-
 
 def is_triangle(a,b,c):
     
@@ -99,26 +62,7 @@ def is_triangle(a,b,c):
         return False
 
 
-# In[ ]:
-
-
-
-
-
-# In[15]:
-
-
-is_triangle(4,2,3)
-
-
-# In[ ]:
-
-
-
-
-
-# In[16]:
-
+Ques 5
 
 def max_of_three(num1, num2, num3):
     
@@ -136,28 +80,12 @@ def max_of_three(num1, num2, num3):
         return num3
     
     
-
-
-# In[19]:
-
-
-max_of_three(7,8,9)
-
-
-# In[20]:
-
+Addedum question
 
 def reverse_string(s):
     return s[::-1]
 
 
-# In[22]:
-
-
-reverse_string('hello')
-
-
-# In[ ]:
 
 
 
